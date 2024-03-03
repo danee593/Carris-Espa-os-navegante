@@ -4,6 +4,5 @@
 /.Lib
 /.venv
 /.idea
-/.venv
-
-
+.idea/misc.xml
+.idea/workspace.xml
