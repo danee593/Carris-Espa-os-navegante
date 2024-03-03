@@ -70,7 +70,8 @@ def get_carris_encm() -> pd.DataFrame:
     except requests.exceptions.RequestException as e:
         raise SystemExit(f"Failed to fetch data from API: {str(e)}")
     else:
-        response_time: str = datetime.now().strftime("%y/%m/%d %H:%M:%S")
+        response_time: str = datetime.utcnow().strftime("%y/%m/%d %H:%M:%S")  # Note the utc Portugal is un UTC
+        # timezone.
         response_json: dict = json.loads(response.text)
         df = pd.DataFrame(response_json)
         df["time"] = response_time
