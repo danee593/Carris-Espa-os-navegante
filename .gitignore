@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+.venv/Lib
+.Lib
+/.Lib
+/.venv
+/.idea
+/.venv
+
+
