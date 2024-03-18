@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1fc46bf3-cc23-42b1-8896-9ed7f459eb0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extract_espacos_navegante.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_espacos_navegante.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extract_espacos_navegante.py" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_function_extract_espacos_navegante/extract_espacos_navegante.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Project Report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/report/Project Report.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_function_extract_espacos_navegante/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,24 +28,26 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2dBEqyO9ed8A127you8qVz2uAvC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\PycharmProjects\Carris Espaços navegante\cloud_function_extract_espacos_navegante" />
+      <recent name="C:\Users\danie\PycharmProjects\Carris Espaços navegante\report" />
       <recent name="C:\Users\danie\PycharmProjects\Carris Espaços navegante" />
     </key>
   </component>
