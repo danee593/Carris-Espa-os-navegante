@@ -15,7 +15,7 @@ SELECT
   ,SAFE_CAST(carris.is_open AS BOOL) AS is_open
 FROM `carris-416110.Carris_Lake.espacos_navegante` AS carris
 WHERE PARSE_DATETIME('%y/%m/%d %H:%M:%S', carris.time) >= '2024-03-04'
-  AND PARSE_DATETIME('%y/%m/%d %H:%M:%S', carris.time) < '2024-03-07'
+  AND PARSE_DATETIME('%y/%m/%d %H:%M:%S', carris.time) < '2024-03-22'
 )
 
 SELECT

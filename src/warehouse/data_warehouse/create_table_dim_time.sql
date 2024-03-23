@@ -4,8 +4,7 @@ bigquery does allow a clear syntax to generate a sequence of numbers,
 GENERATE_ARRAY imposis a hard limit on 1048575 -> 2^20 - 1
 https://stackoverflow.com/questions/38884708/how-to-generate-series-in-bigquery-standard-sql/39082506
 
-
-5 years is 2,628,000
+google reviews starts on 2017, create 10 million datetime rows.
 
 */
 
@@ -18,11 +17,10 @@ WITH generate_series AS(
 SELECT num1 * 1000000 + num2 AS num
 FROM UNNEST(GENERATE_ARRAY(0, 9)) AS num1
   CROSS JOIN UNNEST(GENERATE_ARRAY(0, 999999)) AS num2
-WHERE (num1 * 1000000 + num2) <= 2628000
 )
 , dates_seconds AS(
 SELECT
-  DATETIME_ADD(PARSE_DATETIME('%Y-%m-%d %H:%M:%S', '2024-03-04 08:00:00'), INTERVAL gs.num MINUTE) AS full_date
+  DATETIME_ADD(PARSE_DATETIME('%Y-%m-%d %H:%M:%S', '2017-01-01 00:00:00'), INTERVAL gs.num MINUTE) AS full_date
 FROM generate_series AS gs
 )
 
